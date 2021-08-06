@@ -258,7 +258,7 @@ li {
 		display: block;
 	}
 	p {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		line-height: 2em;
 	}
 	.grid-container {
@@ -268,7 +268,7 @@ li {
 		grid-template-areas: "a" "b" "c" "d" "e";
 	}
 	.slider {
-		height: 100vh;
+		height: 60vh;
 	}
 	.right-left-btn {
 		grid-column: 1/2;
