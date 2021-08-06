@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+
+		<title>Frontend Mentor | Room homepage</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="mobile">
+				<div class="hamburger">
+					<img src="./images/icon-hamburger.svg" alt="" />
+				</div>
+				<div class="close">
+					<img src="./images/icon-close.svg" alt="" />
+				</div>
+				<div class="sidebar">
+					<ul class="sidebar-links">
+						<li class="nav-link">home</li>
+						<li class="nav-link">shop</li>
+						<li class="nav-link">about</li>
+						<li class="nav-link">contact</li>
+					</ul>
+				</div>
+			</div>
+			<nav class="navbar">
+				<img src="./images/logo.svg" alt="" />
+				<ul class="nav-links">
+					<li class="nav-link">home</li>
+					<li class="nav-link">shop</li>
+					<li class="nav-link">about</li>
+					<li class="nav-link">contact</li>
+				</ul>
+			</nav>
+			<div class="grid-container">
+				<div class="slider">
+					<img
+						src="./images/desktop-image-hero-1.jpg"
+						alt=""
+						class="slider-image active"
+					/>
+					<img
+						src="./images/desktop-image-hero-2.jpg"
+						alt=""
+						class="slider-image next-image"
+					/>
+					<img
+						src="./images/desktop-image-hero-3.jpg"
+						alt=""
+						class="slider-image prev-image"
+					/>
+				</div>
+				<main class="main">
+					<section class="section-center">
+						<h1>Discover innovative ways to decorate</h1>
+						<p>
+							We provide unmatched quality, comfort, and style for
+							property owners across the country. Our experts
+							combine form and function in bringing your vision to
+							life. Create a room in your own style with our
+							collection and make your property a reflection of
+							you and what you love.
+						</p>
+						<div class="shop">
+							<h2>shop now</h2>
+							<button class="shopnow-btn">
+								<img src="./images/icon-arrow.svg" alt="" />
+							</button>
+						</div>
+					</section>
+				</main>
+				<div class="right-left-btn">
+					<button class="leftbtn" id="left">
+						<img src="./images/icon-angle-left.svg" alt="" />
+					</button>
+					<button class="rightbtn" id="right">
+						<img src="./images/icon-angle-right.svg" alt="" />
+					</button>
+				</div>
+				<div class="left">
+					<img src="./images/image-about-dark.jpg" alt="" />
+				</div>
+				<div class="about">
+					<section class="section-center">
+						<h2>about our furniture</h2>
+						<p>
+							Our multifunctional collection blends design and
+							function to suit your individual taste. Make each
+							room unique, or pick a cohesive theme that best
+							express your interests and what inspires you. Find
+							the furniture pieces you need, from traditional to
+							contemporary styles or anything in between. Product
+							specialists are available to help you create your
+							dream space.
+						</p>
+
+						<div class="attribution">
+							Challenge by
+							<a
+								href="https://www.frontendmentor.io?ref=challenge"
+								target="_blank"
+								>Frontend Mentor</a
+							>. Coded by
+							<a
+								href="https://github.com/adram3l3ch"
+								target="_blank"
+								>Adarsh</a
+							>.
+						</div>
+					</section>
+				</div>
+				<div class="right">
+					<img src="./images/image-about-light.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
